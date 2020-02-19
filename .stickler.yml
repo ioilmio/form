@@ -1,0 +1,4 @@
+---
+linters:
+    csslint:
+        ignore: 'box-model,ids'
