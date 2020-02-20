@@ -9,9 +9,9 @@ body{
 header{
     background-color: #66ff00;
     display: flex;
-    /* justify-items: flex-end; */
-    width: 100%;
-    height: auto;
+    justify-content: flex-end; 
+    /* width: 100%;
+    height: auto; */
 }
 
 #sign-in-btn{
@@ -21,10 +21,59 @@ main{
     background-color: red;
     /* margin: auto 50%; */
 }
+
+.section-stuff{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.small-logos{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    border: 5px black solid;
+
+
+}
+
+.form>div, p{
+    text-align: center;
+}
+
+.form>input,label,button{
+    margin: 5px 20px;
+    border-radius: 3px;
+    height: 34px;
+    width: 320;
+
+}
+
 footer{
     background-color: yellow;
-    /* margin: auto 50%; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+    color: darkgray;
+    font-size: 12px;
+    padding: 50px;
 }
+
+.footer-links > a{
+    text-decoration: none;
+    color: darkgray;
+    padding: 10px;
+}
+
 .main-logo>img{
     width: 118px;
     height: 36px;
