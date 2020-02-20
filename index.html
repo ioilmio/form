@@ -13,12 +13,13 @@
     <main>
     <header>
             <div>
-                <p> Already have an Intuit account?</p>
-                <a href="#"> I forgot my User ID or Password</a>
+                <span> Already have an Intuit account?</span>
+                <br>
+                <span> <a href="#"> I forgot my User ID or Password</a></span>
             </div>
-            <button id="sign-in-btn">
+            <button id="action-btn">
                 <i class="material-icons">lock</i>
-                Sign In
+                <span>Sign In</span>
             </button>
     </header>
    
@@ -46,27 +47,29 @@
     <section class="section-stuff">
         <form class= "form" action="" method="post">
             <div class="form-title">
-                <h2> Create an Intuit Account</h2>
+                <h2> Create an Intuit account</h2>
             </div>
             <div class="form-description">
                 <p>One acount for everithing, Including Mint.</p>
-                <p>Learn More</p>
+                <p> <a href="#">Learn more</a> </p>
             </div>
             <label for="email-address"> Email Address</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" placeholder="You'll verify this later">
             <label for="phone">Phone (recommended)</label>
-            <input type="tel" name="phone" id="phone">
+            <input type="tel" name="phone" id="phone" placeholder="Helps with lost passwords and security">
             <label for="password">Password</label>
             <input type="password" name="password" id="password">
             <label for="conf-password">Confirm password</label>
             <input type="password" name="conf-password" id="conf-password">
-            <button>
+            <button id="action-btn"> 
                 <i class="material-icons">lock</i>
-                Create Account
+                <span>Create Account</span>
             </button>
-            <p>By clicking Create account, you agree to our
-               <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></p>
-            <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+            <div class="disclaimer">
+                <p>By clicking Create account, you agree to our
+                <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></p>
+                <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+            </div>  
         </form>
     </section>
 

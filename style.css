@@ -1,16 +1,18 @@
+
 body{
     background-color: #eceef1;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family:  Helvetica, sans-serif;
+    color: gray;
 }
 
 header{
     display: flex;
-    /* float: right; */
     justify-content: flex-end;
-    font-size: 10px; 
+    font-size: 13px; 
+    align-items: center;
 }
 
 
@@ -18,11 +20,14 @@ header>button{
     /* display: inline-block; */
 }
 
-#sign-in-btn{
+#action-btn{
     background-color: #0077c5;
     color: white;
     border-radius: 3px;
-    border:1px black solid;
+    border:1px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-logo{
@@ -52,6 +57,12 @@ header>button{
 .logos>span{
     font-size: 20px;
     color: darkgray;
+    padding: 5px;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
 }
 
 .form{
@@ -78,6 +89,14 @@ header>button{
 
 }
 
+.disclaimer{
+    color: gray;
+    font-size: 10px;
+    background-color: #eceef1;
+    font-style: italic;
+}
+
+
 footer{
     display: flex;
     flex-direction: column;
@@ -103,3 +122,20 @@ footer{
     width: 23px;
     height: 23px;
 }
+
+
+@import "compass/css3";
+
+input[type=text], textarea {
+  @include transition(all 0.30s ease-in-out);
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  @include box-shadow(0 0 5px rgba(81, 203, 238, 1));
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
