@@ -10,33 +10,35 @@
 </head>
 
 <body>
+    <main>
     <header>
-        <button>
-            <i class="material-icons">lock</i>
-            Sign In
-        </button>
         <div>
-        <p> Already have an Intuit account?</p>
-        <a href="#"> I forgot my User ID or Password</a>
+            <p> Already have an Intuit account?</p>
+            <a href="#"> I forgot my User ID or Password</a>
         </div>
+                        <button id="sign-in-btn">
+                            <i class="material-icons">lock</i>
+                            Sign In
+                        </button>
     </header>
    
-    <main>
+    <section>
+
+
         <div class="form-logos">
-            <div class="intuit-logo">
-                INTUIT LOGO      
+            <div class="main-logo">
+                <img src="https://www.emindful.com/wp-content/uploads/2017/06/logo-intuit-bw-1.png" alt="" srcset="">
             </div>
             <div>
-                <div>
-                    MINT LOGO
+                <div class="logos">
+                 <img src="https://img.utdstc.com/icons/mint-finance-budgets-and-money-android.png:l" alt="" srcset="">mint
                 </div>
-                <div>
-                    QUICKBOOKS LOGO
+                <div class="logos">
+                 <img src="https://quickbooks.intuit.com/cas/dam/IMAGE/A6OWCozsM/qb_thumb.png" alt="" srcset="">quickbooks
                 </div>
-                <div>
-                    TURBOTAX LOGO
-                </div>
-
+                <div class="logos">
+                <img src="https://image.winudf.com/v2/image/Y29tLmtpbmd0YXhzai53ZWVyX2ljb25fMndxNjZham4/icon.png?w=170&fakeurl=1" alt="" srcset="">
+               turbotax </div>
             </div> 
         </div>
         <form action="" method="post">
@@ -48,22 +50,22 @@
                 <p>Learn More</p>
             </div>
             <label for="email-address"> Email Address</label>
-            <input type="email" name="" id="">
+            <input type="email" name="email" id="email">
             <label for="phone">Phone (recommended)</label>
-            <input type="tel" name="" id="">
+            <input type="tel" name="phone" id="phone">
             <label for="password">Password</label>
-            <input type="password" name="" id="">
+            <input type="password" name="password" id="password">
             <label for="conf-password">Confirm password</label>
-            <input type="password" name="" id="">
+            <input type="password" name="conf-password" id="conf-password">
             <button>
                 <i class="material-icons">lock</i>
-                Create Accunt
+                Create Account
             </button>
             <p>By clicking Create account, you agree to our
                <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></p>
             <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
         </form>
-    </main>
+    </section>
 
     <footer>
         <span class="footer-links">
@@ -74,6 +76,7 @@
         <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
         <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </footer>
+</main>
 
 
 

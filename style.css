@@ -1,3 +1,36 @@
-i{
-    width: 25px;
+body{
+    background-color: #eceef1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, sans-serif;
+}
+
+header{
+    background-color: #66ff00;
+    display: flex;
+    /* justify-items: flex-end; */
+    width: 100%;
+    height: auto;
+}
+
+#sign-in-btn{
+    background-color: #0077c5;
+}
+main{
+    background-color: red;
+    /* margin: auto 50%; */
+}
+footer{
+    background-color: yellow;
+    /* margin: auto 50%; */
+}
+.main-logo>img{
+    width: 118px;
+    height: 36px;
+}
+
+.logos>img{
+    width: 23px;
+    height: 23px;
 }
