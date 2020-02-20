@@ -7,19 +7,27 @@ body{
 }
 
 header{
-    background-color: #66ff00;
-    display: flex;
-    justify-content: flex-end; 
-    /* width: 100%;
-    height: auto; */
+    
+    /* display: block; */
+    /* float: right; */
+    /* justify-content: flex-end; */
+    font-size: 10px; 
+}
+header>button{
+    /* display: inline-block; */
 }
 
 #sign-in-btn{
     background-color: #0077c5;
+    color: white;
+    border-radius: 3px;
+    border:1px black solid;
 }
-main{
-    background-color: red;
-    /* margin: auto 50%; */
+
+.main-logo{
+    display: flex;
+    justify-content: center;
+    margin:15px;
 }
 
 .section-stuff{
@@ -33,6 +41,16 @@ main{
 .small-logos{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.small-logos>.logos{
+    display: flex;
+    align-items: center;
+    margin: 20px 5px 20px 5px ;
+}
+.logos>span{
+    font-size: 20px;
+    color: darkgray;
 }
 
 .form{
@@ -40,7 +58,9 @@ main{
     justify-content: center;
     flex-direction: column;
     width: 400px;
-    border: 5px black solid;
+    border: 1px darkgray solid ;
+    border-radius: 2px;
+    background-color: white;
 
 
 }
@@ -53,12 +73,11 @@ main{
     margin: 5px 20px;
     border-radius: 3px;
     height: 34px;
-    width: 320;
+    /* width: 320px; */
 
 }
 
 footer{
-    background-color: yellow;
     display: flex;
     flex-direction: column;
     text-align: center;
