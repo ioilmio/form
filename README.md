@@ -20,15 +20,6 @@ This project is to show our basic HTML and CCS skills cloning the main features 
 
 To get a local copy up and running follow these simple example steps.
 
-<!-- ### Prerequisites
-Any web browser
-
-### Setup
-Download the index.html and style.ccs files on this repo
-
-### Usage
-Open the index.html with your prefered browser -->
-
 
 ## Authors
 

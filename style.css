@@ -1,4 +1,3 @@
-
 body{
     background-color: #eceef1;
     box-sizing: border-box;
@@ -55,13 +54,13 @@ header{
     align-items: center;
 }
 
-.small-logos>.logos{
+.small-logos > .logos{
     display: flex;
     align-items: center;
     margin: 20px 5px 20px 5px ;
 }
 
-.logos>span{
+.logos > span{
     font-size: 20px;
     color: darkgray;
     padding: 5px;
@@ -82,11 +81,11 @@ a {
     background-color: white;
 }
 
-.form>div, p{
+.form > div, p{
     text-align: center;
 }
 
-.form>input,label,button{
+.form > input, label, button{
     margin: 5px 20px;
     border-radius: 3px;
     height: 34px;
@@ -136,12 +135,12 @@ footer{
     padding: 10px;
 }
 
-.main-logo>img{
+.main-logo > img{
     width: 118px;
     height: 36px;
 }
 
-.logos>img{
+.logos > img{
     width: 23px;
     height: 23px;
 }
