@@ -15,7 +15,6 @@ header{
     align-items: center;
 }
 
-
 #action-btn{
     background-color: #0077c5;
     color: white;
@@ -23,9 +22,9 @@ header{
     border:1px gray;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
+
 #action-btn-sign-in{
     background-color: #0077c5;
     color: white;
@@ -48,7 +47,6 @@ header{
     justify-content: center;
     flex-direction: row;
     width: 100%;
-
 }
 
 .small-logos{
@@ -56,11 +54,13 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 .small-logos>.logos{
     display: flex;
     align-items: center;
     margin: 20px 5px 20px 5px ;
 }
+
 .logos>span{
     font-size: 20px;
     color: darkgray;
@@ -80,8 +80,6 @@ a {
     border: 1px #c7c7c7 solid ;
     border-radius: 2px;
     background-color: white;
-
-
 }
 
 .form>div, p{
@@ -92,8 +90,9 @@ a {
     margin: 5px 20px;
     border-radius: 3px;
     height: 34px;
-    /* width: 320px; */
+    
 }
+
 input{
     font-size: 18px;
     padding: 8px;
@@ -103,8 +102,6 @@ input{
 label{
     margin-top: 20px;
     margin-bottom: -10px;
-
-
 }
 
 .terms{
@@ -113,7 +110,6 @@ label{
     font-size: 12px;
     text-align: justify;
     line-height: 20px;
-    
 }
 
 .disclaimer{
