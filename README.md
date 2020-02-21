@@ -5,12 +5,6 @@
 
 This project is to show our basic HTML and CCS skills cloning the main features of Youtube.com main page.
 
-## Built With
-
-- HTML,
-- CCS,
-- Love
-
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/ioilmio/form/sign-up/index.html)
