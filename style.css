@@ -1,154 +1,151 @@
 @import "compass/css3";
 
-body{
-    background-color: #eceef1;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family:  Helvetica, sans-serif;
-    color: #4c4c4c;
+body {
+  background-color: #eceef1;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:  Helvetica, sans-serif;
+  color: #4c4c4c;
 }
 
-header{
-    display: flex;
-    justify-content: flex-end;
-    font-size: 13px; 
-    align-items: center;
+header {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px; 
+  align-items: center;
 }
 
-#action-btn{
-    background-color: #0077c5;
-    color: white;
-    border-radius: 3px;
-    border:1px gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+#action-btn {
+  background-color: #0077c5;
+  color: white;
+  border-radius: 3px;
+  border:1px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;    
 }
 
-#action-btn-sign-in{
-    background-color: #0077c5;
-    color: white;
-    border-radius: 3px;
-    border:1px gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 104px;
-    height: 34px;
+#action-btn-sign-in {
+  background-color: #0077c5;
+  color: white;
+  border-radius: 3px;
+  border:1px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 34px;
 }
 
-.main-logo{
-    display: flex;
-    justify-content: center;
+.main-logo {
+  display: flex;
+  justify-content: center;
 }
 
-.section-stuff{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
+.section-stuff {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
 }
 
-.small-logos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.small-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.small-logos > .logos{
-    display: flex;
-    align-items: center;
-    margin: 20px 5px 20px 5px ;
+.small-logos > .logos {
+  display: flex;
+  align-items: center;
+  margin: 20px 5px 20px 5px ;
 }
 
-.logos > span{
-    font-size: 20px;
-    color: darkgray;
-    padding: 5px;
+.logos > span {
+  font-size: 20px;
+  color: darkgray;
+  padding: 5px;
 }
 
 a {
-    color: #0077c5;
-    text-decoration: none;
+  color: #0077c5;
+  text-decoration: none;
 }
 
-.form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 400px;
-    border: 1px #c7c7c7 solid ;
-    border-radius: 2px;
-    background-color: white;
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  border: 1px #c7c7c7 solid ;
+  border-radius: 2px;
+  background-color: white;
 }
 
-.form > div, p{
-    text-align: center;
+.form > div, p {
+  text-align: center;
 }
 
-.form > input, label, button{
-    margin: 5px 20px;
-    border-radius: 3px;
-    height: 34px;
-    
+.form > input, label, button {
+  margin: 5px 20px;
+  border-radius: 3px;
+  height: 34px;
 }
 
-input{
-    font-size: 18px;
-    padding: 8px;
-    color: gray;
+input {
+  font-size: 18px;
+  padding: 8px;
+  color: gray;
 }
 
-label{
-    margin-top: 20px;
-    margin-bottom: -10px;
+label {
+  margin-top: 20px;
+  margin-bottom: -10px;
 }
 
-.terms{
-    padding: 50px;
-    font-style: italic;
-    font-size: 12px;
-    text-align: justify;
-    line-height: 20px;
+.terms {
+  padding: 50px;
+  font-style: italic;
+  font-size: 12px;
+  text-align: justify;
+  line-height: 20px;
 }
 
-.disclaimer{
-    color: gray;
-    font-size: 10px;
-    background-color: #eceef1;
-    font-style: italic;
+.disclaimer {
+  color: gray;
+  font-size: 10px;
+  background-color: #eceef1;
+  font-style: italic;
 }
 
-
-footer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 5px;
-    color: darkgray;
-    font-size: 12px;
-    padding: 50px;
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 5px;
+  color: darkgray;
+  font-size: 12px;
+  padding: 50px;
 }
 
-.footer-links > a{
-    text-decoration: none;
-    color: darkgray;
-    padding: 10px;
+.footer-links > a {
+  text-decoration: none;
+  color: darkgray;
+  padding: 10px;
 }
 
-.main-logo > img{
-    width: 118px;
-    height: 36px;
+.main-logo > img {
+  width: 118px;
+  height: 36px;
 }
 
-.logos > img{
-    width: 23px;
-    height: 23px;
+.logos > img {
+  width: 23px;
+  height: 23px;
 }
 
-
-input[type=text], textarea {
+input[type=text], textarea  {
   transition:all 0.30s ease-in-out;
   outline: none;
   padding: 3px 0px 3px 3px;
